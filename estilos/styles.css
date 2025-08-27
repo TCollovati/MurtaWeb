@@ -4,9 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-                                     /*!!!!!INDEX!!!!!*/
-/*HEADER*/
-
 body{
     font-family: "Commissioner", sans-serif;
 }
@@ -14,34 +11,28 @@ body{
     background-image: url("../imagenes/corte-router-cnc.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Hace que quede estática al scrollear */
+    background-attachment: fixed; 
 }
 
 .navbar {
   background: transparent !important;
   display: flex;
-  justify-content: center; /* 🔥 centra horizontalmente */
+  justify-content: center;
 }
-
-/* Ajuste del header */
 .encabezado {
     padding: 1rem;
     color: white;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
-
-/* Imagen del logo */
 .logo {
-    width: 15%; /* Ajusta según lo que quieras */
+    width: 15%;
     border-radius: 70px;
 }
 .cotizar img{
     border-radius: 70px
 }
-
-/* Sección principal */
 .principal {
-    height: 100vh;  /* ocupa toda la pantalla */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,17 +45,27 @@ body{
     text-align: center;
     color: white;
 }
+.childwood h1{
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+    color: rgb(58, 58, 65);
+}
+.childwood p{
+    font-size: 1.2rem;
+    color: black;
+}
 
 .cotizar {
   text-align: center;
-  margin-bottom: 0; /* antes estaba más grande */
+  margin-bottom: 0;
   padding: 0;
 }
 
 .cotizar h2 {
   font-weight: bold;
   font-size: 1.8rem;
-  margin: 0; /* margen arriba y abajo más pequeño */
+  margin: 0;
   padding: 0;
   text-align: center;
   color: white;
@@ -73,15 +74,13 @@ body{
    
 .productos {
     display: flex;
-    /*justify-content: center; /* centra horizontalmente */
-    justify-content: space-evenly;              /* espacio entre productos */
-    flex-wrap: wrap;        /* permite que bajen en pantallas chicas */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     padding: 20px;
-    text-align: center;     /* centra los textos de cada producto */
+    text-align: center;
 }
-
 .productos div {
-    max-width: 250px; /* ancho máximo de cada producto */
+    max-width: 250px;
 }
 
 .productos img {
@@ -100,7 +99,6 @@ footer img{
     margin-top: auto;
     border-radius: 50%;
 }
-
 
 .imagcotizar {
   display: block;
@@ -128,30 +126,30 @@ footer img{
     background-image: url("../imagenes/conejitos.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Hace que quede estática al scrollear */
+    background-attachment: fixed;
 }
 .carousel-inner img {
-  width: 60%;   /* achica todas las imágenes */
-  object-fit: contain;  /* o cover */
+  width: 60%;  
+  object-fit: contain;
 }
 
 .childwood p {
-  margin-bottom: 0;  /* elimina el espacio extra bajo el párrafo */
+  margin-bottom: 0;
 }
 
 .card-group{
-    margin-bottom: 0;  /* elimina el espacio extra bajo el párrafo */
+    margin-bottom: 0;
 }
 
 footer{
-    margin-top: 0;     /* asegura que no se separe hacia arriba */
-  padding-top: 1rem; /* ajusta si quieres un poco de aire */
+    margin-top: 0;
+  padding-top: 1rem;
 }
 
 .cotizar img {
-    width: 100%;      /* ocupa todo el ancho del contenedor */
-    max-width: 600px; /* opcional: no crecer demasiado en desktop */
-    height: auto;     /* mantiene la proporción de la imagen */
-    display: block;   /* elimina espacio inline debajo de la imagen */
-    margin: 0 auto;   /* centra la imagen */
+    width: 100%;    
+    max-width: 600px;
+    height: auto;    
+    display: block;  
+    margin: 0 auto; 
 }
