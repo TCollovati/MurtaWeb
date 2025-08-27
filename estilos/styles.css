@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                                     /*!!!!!INDEX!!!!!*/
+/*HEADER*/
+
+body{
+    font-family: "Commissioner", sans-serif;
+}
+.encabezado, .principal, .cotizar, footer {
+    background-image: url("../imagenes/corte-router-cnc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hace que quede estática al scrollear */
+}
+
+.navbar {
+  background: transparent !important;
+  display: flex;
+  justify-content: center; /* 🔥 centra horizontalmente */
+}
+
+/* Ajuste del header */
+.encabezado {
+    padding: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+/* Imagen del logo */
+.logo {
+    width: 15%; /* Ajusta según lo que quieras */
+    border-radius: 70px;
+}
+.cotizar img{
+    border-radius: 70px
+}
+
+/* Sección principal */
+.principal {
+    height: 100vh;  /* ocupa toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.principal h1{
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+}
+
+.cotizar {
+  text-align: center;
+  margin-bottom: 0; /* antes estaba más grande */
+  padding: 0;
+}
+
+.cotizar h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0; /* margen arriba y abajo más pequeño */
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+   
+.productos {
+    display: flex;
+    /*justify-content: center; /* centra horizontalmente */
+    justify-content: space-evenly;              /* espacio entre productos */
+    flex-wrap: wrap;        /* permite que bajen en pantallas chicas */
+    padding: 20px;
+    text-align: center;     /* centra los textos de cada producto */
+}
+
+.productos div {
+    max-width: 250px; /* ancho máximo de cada producto */
+}
+
+.productos img {
+    width: 100%;
+    border-radius: 8px;
+}
+h2{
+    font-weight: 400;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    }
+
+footer img{
+    width: 5%;
+    margin-top: auto;
+    border-radius: 50%;
+}
+
+
+.imagcotizar {
+  display: block;
+  text-align: center;
+}
+
+.dani {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.logowp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 8%;
+}
+.encabezadoch{
+    padding: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+.childwood,.encabezadoch, .footerch {
+    background-image: url("../imagenes/conejitos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Hace que quede estática al scrollear */
+}
+.carousel-inner img {
+  width: 60%;   /* achica todas las imágenes */
+  object-fit: contain;  /* o cover */
+}
+
+.childwood p {
+  margin-bottom: 0;  /* elimina el espacio extra bajo el párrafo */
+}
+
+.card-group{
+    margin-bottom: 0;  /* elimina el espacio extra bajo el párrafo */
+}
+
+footer{
+    margin-top: 0;     /* asegura que no se separe hacia arriba */
+  padding-top: 1rem; /* ajusta si quieres un poco de aire */
+}
+
+.cotizar img {
+    width: 100%;      /* ocupa todo el ancho del contenedor */
+    max-width: 600px; /* opcional: no crecer demasiado en desktop */
+    height: auto;     /* mantiene la proporción de la imagen */
+    display: block;   /* elimina espacio inline debajo de la imagen */
+    margin: 0 auto;   /* centra la imagen */
+}
