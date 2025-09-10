@@ -111,33 +111,26 @@
   }
 }
 
-footer {
-  background: url("../imagenes/corte-router-cnc.jpg") center/cover fixed no-repeat;
-  margin-top: 0;
-  padding: 1rem;
-  text-align: center;
+footer{
+    background-image: url("../imagenes/corte-router-cnc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 0;
+    padding-top: 1rem;
 
-  img {
-    width: 40px;       // tamaño fijo base
-    max-width: 10vw;   // se adapta en móviles
-    border-radius: 50%;
-    margin: 0 0.5rem;  // separa un poco entre íconos
-  }
+    img{
+        width: 5%;
+        margin-top: auto;
+        border-radius: 50%;
+    }
 }
 
-.logowp {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 60px;        // tamaño fijo cómodo
-  max-width: 15vw;    // en móviles se achica
-  border-radius: 50%;
-
-  @media (max-width: 768px) {
-    width: 40px;
-    bottom: 15px;
-    right: 15px;
-  }
-}}
+.logowp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 8%;
+}
 
 
