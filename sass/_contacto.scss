@@ -72,47 +72,72 @@
     }
 }
 
-.cotizar{
-    h2{
-      font-weight: 400;
-      font-size: 2rem;
-      display: block;
-      text-align: center;
-    }
-    
-    .imagcotizar {
-      display: block;
-      text-align: center;
-    }
+.cotizar {
+  padding: 2rem 1rem;
+  text-align: center;
+
+  h1 {
+    font-weight: bold;
+    font-size: clamp(1.8rem, 4vw, 3rem); // se adapta al tamaño de pantalla
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-weight: 400;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+    color: #ffd166;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    display: inline-block; // mantiene centrado el enlace con la imagen
+    text-decoration: none;
 
     img {
-      width: 100%;    
-      max-width: 600px;
-      height: auto;    
-      display: block;  
-      margin: 0 auto; 
-    }
+      max-width: 90%;   // ocupa hasta el 90% del ancho en móviles
+      width: 600px;     // en pantallas grandes se limita a 600px
+      height: auto;     // mantiene proporción
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+      transition: transform 3s ease, box-shadow 3s ease;
 
+      &:hover {
+        transform: scale(1.05); // pequeño zoom al pasar el mouse
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+      }
+    }
+  }
 }
 
-footer{
-  background-image: url("../imagenes/corte-router-cnc.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+footer {
+  background: url("../imagenes/corte-router-cnc.jpg") center/cover fixed no-repeat;
   margin-top: 0;
-  padding-top: 1rem;
+  padding: 1rem;
+  text-align: center;
 
-    img{
-        width: 5%;
-        margin-top: auto;
-        border-radius: 50%;
-    }
+  img {
+    width: 40px;       // tamaño fijo base
+    max-width: 10vw;   // se adapta en móviles
+    border-radius: 50%;
+    margin: 0 0.5rem;  // separa un poco entre íconos
+  }
 }
 
-.logowp{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    width: 8%;
-}
+.logowp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;        // tamaño fijo cómodo
+  max-width: 15vw;    // en móviles se achica
+  border-radius: 50%;
+
+  @media (max-width: 768px) {
+    width: 40px;
+    bottom: 15px;
+    right: 15px;
+  }
+}}
+
+
