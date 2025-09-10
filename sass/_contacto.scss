@@ -79,7 +79,7 @@
   h1 {
     font-weight: bold;
     font-size: clamp(1.8rem, 4vw, 3rem); // se adapta al tamaño de pantalla
-    color: white;
+    color: rgb(70, 13, 13);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
     margin-bottom: 1rem;
   }
@@ -96,15 +96,14 @@
     text-decoration: none;
 
     img {
-      max-width: 90%;   // ocupa hasta el 90% del ancho en móviles
-      width: 600px;     // en pantallas grandes se limita a 600px
-      height: auto;     // mantiene proporción
+      display: block;
+      width: 30%;     // mantiene proporción
       border-radius: 10px;
       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
       transition: transform 3s ease, box-shadow 3s ease;
 
       &:hover {
-        transform: scale(1.05); // pequeño zoom al pasar el mouse
+        transform: scale(4.05); // pequeño zoom al pasar el mouse
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
       }
     }
