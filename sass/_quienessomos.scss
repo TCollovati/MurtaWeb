@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezadoch{
+    background-image: url("../imagenes/conejitos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  // Navbar Bootstrap, pero con overrides
+  .navbar {
+    background: transparent !important;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+
+    .navbar-toggler {
+      border: none;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .navbar-nav {
+      gap: 1.5rem; // espacio entre links
+      .nav-link {
+        color: white !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: color 0.2s ease;
+
+        &.active {
+          color: #ff6b6b !important; // color destacado activo
+        }
+
+        &:hover {
+          color: #ffd166 !important; // color hover
+        }
+      }
+    }
+  }
+
+  // Logo
+  .logo {
+    width: 120px; // más consistente que % (porque % depende del ancho padre)
+    max-width: 20vw; // escala en pantallas pequeñas
+    border-radius: 50%; // redondo
+    margin-bottom: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.childwood{
+    background-image: url("../imagenes/conejitos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    .dani {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: black;
+        margin-bottom: 0;
+    }
+
+}
+
+.footerch {
+    background-image: url("../imagenes/conejitos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    footer img{
+        width: 5%;
+        margin-top: auto;
+        border-radius: 50%;
+    }
+    
+    .logowp{
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        width: 8%;
+    }
+}
+
+
+
+
+

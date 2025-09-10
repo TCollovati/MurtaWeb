@@ -1,0 +1,99 @@
+.encabezado {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+
+  // Navbar Bootstrap, pero con overrides
+  .navbar {
+    background: transparent !important;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+
+    .navbar-toggler {
+      border: none;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+
+    .navbar-nav {
+      gap: 1.5rem; // espacio entre links
+      .nav-link {
+        color: white !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: color 0.2s ease;
+
+        &.active {
+          color: #ff6b6b !important; // color destacado activo
+        }
+
+        &:hover {
+          color: #ffd166 !important; // color hover
+        }
+      }
+    }
+  }
+
+  // Logo
+  .logo {
+    width: 120px; // más consistente que % (porque % depende del ancho padre)
+    max-width: 20vw; // escala en pantallas pequeñas
+    border-radius: 50%; // redondo
+    margin-bottom: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.principal {
+    background-image: url("../imagenes/corte-router-cnc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+
+    h1{
+        font-weight: bold;
+        font-size: 3.2rem;
+        text-align: center;
+        color: white;
+    }
+}
+
+.cotizar img{
+    border-radius: 70px
+}
+
+footer{
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 0;
+  padding-top: 1rem;
+
+    img{
+        width: 5%;
+        margin-top: auto;
+        border-radius: 50%;
+    }
+}
+
+.logowp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 8%;
+}
