@@ -72,17 +72,27 @@
     }
 }
 
-.imagcotizar {
-  display: block;        // el enlace ocupa todo el ancho disponible
-  margin: 0 auto;        // centra el enlace dentro del padre
-  width: fit-content;    // el ancho se ajusta al contenido (la imagen)
+.cotizar{
+    h2{
+      font-weight: 400;
+      font-size: 2rem;
+      display: block;
+      text-align: center;
+    }
+    
+    .imagcotizar {
+      display: block;
+      text-align: center;
+    }
 
-  img {
-    display: block;      // imagen en bloque
-    margin: 0 auto;      // centrada dentro del enlace
-    max-width: 80%;      // se adapta a pantallas chicas
-    height: auto;
-  }
+    img {
+      width: 100%;    
+      max-width: 600px;
+      height: auto;    
+      display: block;  
+      margin: 0 auto; 
+    }
+
 }
 
 footer{
