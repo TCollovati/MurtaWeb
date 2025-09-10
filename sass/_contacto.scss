@@ -73,8 +73,16 @@
 }
 
 .imagcotizar {
-  display: block;
-  text-align: center;
+  display: block;        // el enlace ocupa todo el ancho disponible
+  margin: 0 auto;        // centra el enlace dentro del padre
+  width: fit-content;    // el ancho se ajusta al contenido (la imagen)
+
+  img {
+    display: block;      // imagen en bloque
+    margin: 0 auto;      // centrada dentro del enlace
+    max-width: 80%;      // se adapta a pantallas chicas
+    height: auto;
+  }
 }
 
 footer{
