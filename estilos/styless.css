@@ -77,6 +77,28 @@ body{
 .card-group{
     margin-bottom: 0;
 }
+.clicaqui {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.clicaqui h2 {
+    display: inline-block;          /* permite que el H2 tenga fondo y padding */
+    padding: 20px 40px;             /* espacio dentro del óvalo */
+    border-radius: 50px;            /* óvalo redondeado */
+    background-color: #ffffff;      /* fondo blanco */
+    color: #000000;                 /* texto negro */
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;                /* indica que es clickeable */
+    transition: background-color 0.3s, color 0.3s; /* transición suave */
+}
+
+/* Hover: fondo negro y texto blanco */
+.clicaqui h2:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
 /*-------------------------------MAQUETADO DE QUIENES SOMOS-------------------------------*/
 
     /*HEADER*/
@@ -173,3 +195,4 @@ footer img{
     right: 40px;
     width: 8%;
 }
+
