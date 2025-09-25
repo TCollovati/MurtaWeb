@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-------------------------------MAQUETADO DEL INDEX-------------------------------*/
+
+    /*HEADER*/
+
+body{
+    font-family: "Commissioner", sans-serif;
+}
+.bodyindex{
+    background-image: url("../imagenes/corte-router-cnc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*.encabezado, .principal, .cotizar, footer {
+    background-image: url("../imagenes/corte-router-cnc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}*/
+.encabezado {
+    padding: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+.logo {
+    width: 20%;
+    border-radius: 50px;
+}
+
+.navbar {
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+}
+
+
+    /*MAIN*/
+
+.principal {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+.principal h1{
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+    color: white;
+}
+
+.cotizar {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.cotizar h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.card-group{
+    margin-bottom: 0;
+}
+/*-------------------------------MAQUETADO DE QUIENES SOMOS-------------------------------*/
+
+    /*HEADER*/
+.bodyqs{
+    background-image: url("../imagenes/carpinteria3jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.encabezado{
+    padding: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+/*.childwood,.encabezadoch, .footerch {
+    background-image: url("../imagenes/conejitos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}*/
+    /*MAIN*/
+.cuerpoqs h1{
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
+}
+.cuerpoqs p{
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    margin-bottom: 0;
+}
+.dani {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+/*-------------------------------MAQUETADO DE CHILDWOOD-------------------------------*/
+
+    /*HEADER*/
+
+.bodychildwood{
+    background-image: url("../imagenes/conejitos.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+    /*MAIN*/
+
+.childwood h1{
+    font-weight: bold;
+    font-size: 3.2rem;
+    text-align: center;
+    color: rgb(58, 58, 65);
+}
+.childwood p{
+font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    margin-bottom: 0;
+}
+.clicaqui{
+    padding: 3rem;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
+}
+.carousel-inner img {
+  width: 60%;  
+  object-fit: contain;
+}
+    /*FOOTER*/
+footer{
+    margin-top: 0;
+    padding-top: 1rem;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+}
+
+footer img{
+    width: 5%;
+    margin-top: auto;
+    border-radius: 50%;
+}
+
+.logowp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 8%;
+}

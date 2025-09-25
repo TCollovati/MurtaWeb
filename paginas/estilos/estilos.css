@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+.encabezado {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.encabezado .navbar {
+  background: transparent !important;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+.encabezado .navbar .navbar-toggler {
+  border: none;
+}
+.encabezado .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.encabezado .navbar .navbar-nav {
+  gap: 1.5rem;
+}
+.encabezado .navbar .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+.encabezado .navbar .navbar-nav .nav-link.active {
+  color: #ff6b6b !important;
+}
+.encabezado .navbar .navbar-nav .nav-link:hover {
+  color: #ffd166 !important;
+}
+.encabezado .logo {
+  width: 120px;
+  max-width: 20vw;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.principal {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.principal .h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+}
+
+.cotizar {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cotizar h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card-group {
+  margin-bottom: 0;
+}
+
+footer {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 0;
+  padding-top: 1rem;
+}
+footer img {
+  width: 5%;
+  margin-top: auto;
+  border-radius: 50%;
+}
+
+.logowp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 8%;
+}
+
+.encabezado {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.encabezado .navbar {
+  background: transparent !important;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+.encabezado .navbar .navbar-toggler {
+  border: none;
+}
+.encabezado .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.encabezado .navbar .navbar-nav {
+  gap: 1.5rem;
+}
+.encabezado .navbar .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+.encabezado .navbar .navbar-nav .nav-link.active {
+  color: #ff6b6b !important;
+}
+.encabezado .navbar .navbar-nav .nav-link:hover {
+  color: #ffd166 !important;
+}
+.encabezado .logo {
+  width: 120px;
+  max-width: 20vw;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.principal {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.principal h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+}
+
+.cotizar img {
+  border-radius: 70px;
+}
+
+footer {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 0;
+  padding-top: 1rem;
+}
+footer img {
+  width: 5%;
+  margin-top: auto;
+  border-radius: 50%;
+}
+
+.logowp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 8%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezadoch {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.encabezadoch .navbar {
+  background: transparent !important;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+.encabezadoch .navbar .navbar-toggler {
+  border: none;
+}
+.encabezadoch .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.encabezadoch .navbar .navbar-nav {
+  gap: 1.5rem;
+}
+.encabezadoch .navbar .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+.encabezadoch .navbar .navbar-nav .nav-link.active {
+  color: #ff6b6b !important;
+}
+.encabezadoch .navbar .navbar-nav .nav-link:hover {
+  color: #ffd166 !important;
+}
+.encabezadoch .logo {
+  width: 120px;
+  max-width: 20vw;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.childwood {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.childwood .dani {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+.childwood p {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 0;
+}
+
+.footerch {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.footerch footer img {
+  width: 5%;
+  margin-top: auto;
+  border-radius: 50%;
+}
+.footerch .logowp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 8%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.encabezadoch {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.encabezadoch .navbar {
+  background: transparent !important;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+.encabezadoch .navbar .navbar-toggler {
+  border: none;
+}
+.encabezadoch .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+.encabezadoch .navbar .navbar-nav {
+  gap: 1.5rem;
+}
+.encabezadoch .navbar .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+.encabezadoch .navbar .navbar-nav .nav-link.active {
+  color: #ff6b6b !important;
+}
+.encabezadoch .navbar .navbar-nav .nav-link:hover {
+  color: #ffd166 !important;
+}
+.encabezadoch .logo {
+  width: 120px;
+  max-width: 20vw;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.childwood {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.childwood h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+  color: rgb(58, 58, 65);
+}
+.childwood .carousel-inner img {
+  width: 60%;
+  object-fit: contain;
+}
+.childwood p {
+  font-size: 1.2rem;
+  color: black;
+  margin-bottom: 0;
+}
+
+.footerch {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.footerch footer img {
+  width: 5%;
+  margin-top: auto;
+  border-radius: 50%;
+}
+.footerch .logowp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 8%;
+}
+
+
+
+/*# sourceMappingURL=estilos.css.map */
