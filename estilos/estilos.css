@@ -1,0 +1,54 @@
+.bodyindex, .bodychildwood, .bodyqs {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bodyqs {
+  background-image: url("../imagenes/carpinteria3jpg.jpg");
+}
+
+.bodychildwood {
+  background-image: url("../imagenes/conejitos.jpg");
+}
+
+body { /*EXTEND*/
+  font-family: "Commissioner", sans-serif;
+}
+
+.principal {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.principal h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+  color: white;
+}
+
+.cotizar {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+.cotizar h2 {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.card-group {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=estilos.css.map */

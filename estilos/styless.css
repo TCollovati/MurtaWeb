@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap');
-* {
+* {/*EXTEND*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,32 +9,20 @@
 
     /*HEADER*/
 
-body{
+body{/*EXTEND*/
     font-family: "Commissioner", sans-serif;
 }
-.bodyindex{
-    background-image: url("../imagenes/corte-router-cnc.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-/*.encabezado, .principal, .cotizar, footer {
-    background-image: url("../imagenes/corte-router-cnc.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; 
-}*/
-.encabezado {
+.encabezado {/*EXTEND*/
     padding: 1rem;
     color: white;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
-.logo {
+.logo {/*EXTEND*/
     width: 20%;
     border-radius: 50px;
 }
 
-.navbar {
+.navbar {/*EXTEND*/
   background: transparent !important;
   display: flex;
   justify-content: center;
@@ -43,46 +31,12 @@ body{
 
     /*MAIN*/
 
-.principal {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-}
-.principal h1{
-    font-weight: bold;
-    font-size: 3.2rem;
-    text-align: center;
-    color: white;
-}
+/*.clicaqui {/*EXTEND*/
+    /*text-align: center;
+    /*margin: 30px auto;*/
 
-.cotizar {
-  text-align: center;
-  margin-bottom: 0;
-  padding: 0;
-}
 
-.cotizar h2 {
-  font-weight: bold;
-  font-size: 1.8rem;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  color: white;
-  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-}
-
-.card-group{
-    margin-bottom: 0;
-}
-.clicaqui {
-    text-align: center;
-    margin: 30px auto;
-}
-
-.clicaqui h2 {
+.clicaqui h2 {/*EXTEND*/
     display: inline-block;          /* permite que el H2 tenga fondo y padding */
     padding: 20px 40px;             /* espacio dentro del óvalo */
     border-radius: 50px;            /* óvalo redondeado */
@@ -95,30 +49,19 @@ body{
 }
 
 /* Hover: fondo negro y texto blanco */
-.clicaqui h2:hover {
+.clicaqui h2:hover {/*EXTEND*/
     background-color: #000000;
     color: #ffffff;
 }
 /*-------------------------------MAQUETADO DE QUIENES SOMOS-------------------------------*/
 
     /*HEADER*/
-.bodyqs{
-    background-image: url("../imagenes/carpinteria3jpg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 .encabezado{
     padding: 1rem;
     color: white;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
-/*.childwood,.encabezadoch, .footerch {
-    background-image: url("../imagenes/conejitos.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}*/
+
     /*MAIN*/
 .cuerpoqs h1{
     font-weight: bold;
@@ -143,12 +86,6 @@ body{
 
     /*HEADER*/
 
-.bodychildwood{
-    background-image: url("../imagenes/conejitos.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
     /*MAIN*/
 
 .childwood h1{
