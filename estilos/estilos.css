@@ -25,7 +25,7 @@ body {
 }
 
 .bodymadera {
-  background-image: url("../imagenes/Arboles-madera.jpg");
+  background-image: url("../imagenes/raiz.jpg");
 }
 
 .logo {
@@ -188,9 +188,14 @@ body {
 }
 .cuerpoqs p {
   font-size: 1.5rem;
-  color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
   margin-bottom: 0;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 .cuerpoqs .dani {
   display: block;
@@ -207,9 +212,14 @@ body {
 
 .childwood p {
   font-size: 1.5rem;
-  color: black;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
   margin-bottom: 0;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: #000000;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
 .clicaqui {
