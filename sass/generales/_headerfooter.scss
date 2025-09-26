@@ -14,33 +14,6 @@
   justify-content: center;
 }
 
-.clicaqui h2 {/*EXTEND*/
-    display: inline-block;          /* permite que el H2 tenga fondo y padding */
-    padding: 20px 40px;             /* espacio dentro del óvalo */
-    border-radius: 50px;            /* óvalo redondeado */
-    background-color: #ffffff;      /* fondo blanco */
-    color: #000000;                 /* texto negro */
-    font-size: 24px;
-    font-weight: 700;
-    cursor: pointer;                /* indica que es clickeable */
-    transition: background-color 0.3s, color 0.3s; /* transición suave */
-}
-
-/* Hover: fondo negro y texto blanco */
-.clicaqui h2:hover {/*EXTEND*/
-    background-color: #000000;
-    color: #ffffff;
-}
-
-.clicaqui{
-    padding: 3rem;
-    font-weight: bold;
-    font-size: 3.5rem;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
-}
-
 footer{
     margin-top: 0;
     padding-top: 1rem;

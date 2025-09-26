@@ -12,23 +12,6 @@
 body{/*EXTEND*/
     font-family: "Commissioner", sans-serif;
 }
-.encabezado {/*EXTEND*/
-    padding: 1rem;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-}
-.logo {/*EXTEND*/
-    width: 20%;
-    border-radius: 50px;
-}
-
-.navbar {/*EXTEND*/
-  background: transparent !important;
-  display: flex;
-  justify-content: center;
-}
-
-
     /*MAIN*/
 
 /*.clicaqui {/*EXTEND*/
@@ -36,51 +19,12 @@ body{/*EXTEND*/
     /*margin: 30px auto;*/
 
 
-.clicaqui h2 {/*EXTEND*/
-    display: inline-block;          /* permite que el H2 tenga fondo y padding */
-    padding: 20px 40px;             /* espacio dentro del óvalo */
-    border-radius: 50px;            /* óvalo redondeado */
-    background-color: #ffffff;      /* fondo blanco */
-    color: #000000;                 /* texto negro */
-    font-size: 24px;
-    font-weight: 700;
-    cursor: pointer;                /* indica que es clickeable */
-    transition: background-color 0.3s, color 0.3s; /* transición suave */
-}
 
-/* Hover: fondo negro y texto blanco */
-.clicaqui h2:hover {/*EXTEND*/
-    background-color: #000000;
-    color: #ffffff;
-}
 /*-------------------------------MAQUETADO DE QUIENES SOMOS-------------------------------*/
 
     /*HEADER*/
-.encabezado{
-    padding: 1rem;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-}
 
     /*MAIN*/
-.cuerpoqs h1{
-    font-weight: bold;
-    font-size: 3.5rem;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
-}
-.cuerpoqs p{
-    font-size: 1.5rem;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    margin-bottom: 0;
-}
-.dani {
-    display: block;
-    margin: 0 auto;
-    width: 60%;
-}
 
 /*-------------------------------MAQUETADO DE CHILDWOOD-------------------------------*/
 
@@ -88,29 +32,5 @@ body{/*EXTEND*/
 
     /*MAIN*/
 
-.childwood h1{
-    font-weight: bold;
-    font-size: 3.2rem;
-    text-align: center;
-    color: rgb(58, 58, 65);
-}
-.childwood p{
-font-size: 1.5rem;
-    color: black;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    margin-bottom: 0;
-}
-.clicaqui{
-    padding: 3rem;
-    font-weight: bold;
-    font-size: 3.5rem;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
-}
-.carousel-inner img {
-  width: 60%;  
-  object-fit: contain;
-}
     
 

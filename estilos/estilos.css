@@ -1,4 +1,19 @@
 @charset "UTF-8";
+.bodyindex, .bodychildwood, .bodyqs {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bodyqs {
+  background-image: url("../imagenes/carpinteria3jpg.jpg");
+}
+
+.bodychildwood {
+  background-image: url("../imagenes/conejitos.jpg");
+}
+
 .logo { /*EXTEND*/
   width: 20%;
   border-radius: 50px;
@@ -14,6 +29,26 @@
   background: transparent !important;
   display: flex;
   justify-content: center;
+}
+
+footer {
+  margin-top: 0;
+  padding-top: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer img {
+  width: 5%;
+  margin-top: auto;
+  border-radius: 50%;
+}
+
+.logowp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 8%;
 }
 
 .clicaqui h2 { /*EXTEND*/
@@ -41,26 +76,6 @@
   text-align: center;
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-}
-
-footer {
-  margin-top: 0;
-  padding-top: 1rem;
-  color: white;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
-}
-
-footer img {
-  width: 5%;
-  margin-top: auto;
-  border-radius: 50%;
-}
-
-.logowp {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  width: 8%;
 }
 
 body { /*EXTEND*/
@@ -108,13 +123,6 @@ body { /*EXTEND*/
   margin-bottom: 0;
 }
 
-.bodyqs {
-  background-image: url("../imagenes/carpinteria3jpg.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 .cuerpoqs h1 {
   font-weight: bold;
   font-size: 3.5rem;
@@ -132,13 +140,6 @@ body { /*EXTEND*/
   display: block;
   margin: 0 auto;
   width: 60%;
-}
-
-.bodychildwood {
-  background-image: url("../imagenes/conejitos.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .childwood h1 {

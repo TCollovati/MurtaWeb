@@ -1,12 +1,7 @@
 //VARIABLES-----------
+@use "../generales/backgroundimg" as*;
 @use "../generales/headerfooter" as*;
 @use "../generales/variables" as*;
-.bodychildwood{
-    background-image: url("../imagenes/conejitos.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
 
 .childwood h1{
     font-weight: bold;

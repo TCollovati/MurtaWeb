@@ -1,12 +1,8 @@
 //VARIABLES-----------
+@use "../generales/backgroundimg" as*;
 @use "../generales/headerfooter" as*;
 @use "../generales/variables" as*;
-.bodyqs{
-    background-image: url("../imagenes/carpinteria3jpg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+
 .cuerpoqs{
     h1{
         font-weight: bold;
