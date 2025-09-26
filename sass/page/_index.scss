@@ -1,10 +1,18 @@
 //VARIABLES-----------
+@use "../generales/headerfooter" as*;
 @use "../generales/variables" as*;
 //------------------MAIN INDEX-------------------
 
 body{/*EXTEND*/
     font-family: "Commissioner", sans-serif;
 }
+.bodyindex{
+    background-image: url("../imagenes/corte-router-cnc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 .principal {
     height: 100vh;

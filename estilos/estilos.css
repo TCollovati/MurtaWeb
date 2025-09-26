@@ -1,20 +1,77 @@
-.bodyindex, .bodychildwood, .bodyqs {
-  background-image: url("../imagenes/corte-router-cnc.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+@charset "UTF-8";
+.logo { /*EXTEND*/
+  width: 20%;
+  border-radius: 50px;
 }
 
-.bodyqs {
-  background-image: url("../imagenes/carpinteria3jpg.jpg");
+.encabezado { /*EXTEND*/
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-.bodychildwood {
-  background-image: url("../imagenes/conejitos.jpg");
+.navbar { /*EXTEND*/
+  background: transparent !important;
+  display: flex;
+  justify-content: center;
+}
+
+.clicaqui h2 { /*EXTEND*/
+  display: inline-block; /* permite que el H2 tenga fondo y padding */
+  padding: 20px 40px; /* espacio dentro del óvalo */
+  border-radius: 50px; /* óvalo redondeado */
+  background-color: #ffffff; /* fondo blanco */
+  color: #000000; /* texto negro */
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer; /* indica que es clickeable */
+  transition: background-color 0.3s, color 0.3s; /* transición suave */
+}
+
+/* Hover: fondo negro y texto blanco */
+.clicaqui h2:hover { /*EXTEND*/
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.clicaqui {
+  padding: 3rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+  margin-top: 0;
+  padding-top: 1rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+footer img {
+  width: 5%;
+  margin-top: auto;
+  border-radius: 50%;
+}
+
+.logowp {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 8%;
 }
 
 body { /*EXTEND*/
   font-family: "Commissioner", sans-serif;
+}
+
+.bodyindex {
+  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .principal {
@@ -49,6 +106,67 @@ body { /*EXTEND*/
 
 .card-group {
   margin-bottom: 0;
+}
+
+.bodyqs {
+  background-image: url("../imagenes/carpinteria3jpg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.cuerpoqs h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+.cuerpoqs p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+}
+.cuerpoqs .dani {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.bodychildwood {
+  background-image: url("../imagenes/conejitos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.childwood h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  text-align: center;
+  color: rgb(58, 58, 65);
+}
+
+.childwood p {
+  font-size: 1.5rem;
+  color: black;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+  margin-bottom: 0;
+}
+
+.clicaqui {
+  padding: 3rem;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-inner img {
+  width: 60%;
+  object-fit: contain;
 }
 
 /*# sourceMappingURL=estilos.css.map */

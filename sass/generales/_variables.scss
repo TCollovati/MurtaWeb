@@ -5,22 +5,3 @@ $grisazul: rgb(58, 58, 65);
 $negrosombra: rgba(0,0,0,0.7);
 $font:"Commissioner", sans-serif;
 
-
-
-//EXTEND
-
-.bodyindex{
-    background-image: url("../imagenes/corte-router-cnc.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.bodyqs{
-    @extend .bodyindex;
-    background-image: url("../imagenes/carpinteria3jpg.jpg");
-}
-.bodychildwood{
-    @extend .bodyindex;
-    background-image: url("../imagenes/conejitos.jpg");
-}
