@@ -1,21 +1,18 @@
-.clicaqui h2 {/*EXTEND*/
-    display: inline-block;          /* permite que el H2 tenga fondo y padding */
-    padding: 20px 40px;             /* espacio dentro del óvalo */
-    border-radius: 50px;            /* óvalo redondeado */
-    background-color: #ffffff;      /* fondo blanco */
-    color: #000000;                 /* texto negro */
+.clicaqui h2 {
+    display: inline-block;          
+    padding: 20px 40px;             
+    border-radius: 50px;            
+    background-color: #ffffff;      
+    color: #000000;                 
     font-size: 24px;
     font-weight: 700;
-    cursor: pointer;                /* indica que es clickeable */
-    transition: background-color 0.3s, color 0.3s; /* transición suave */
+    cursor: pointer;                
+    transition: background-color 0.3s, color 0.3s; 
 }
-
-/* Hover: fondo negro y texto blanco */
-.clicaqui h2:hover {/*EXTEND*/
+.clicaqui h2:hover {
     background-color: #000000;
     color: #ffffff;
 }
-
 .clicaqui{
     padding: 3rem;
     font-weight: bold;

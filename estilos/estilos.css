@@ -1,4 +1,14 @@
-@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Commissioner", sans-serif;
+}
+
 .bodyindex, .bodychildwood, .bodyqs {
   background-image: url("../imagenes/corte-router-cnc.jpg");
   background-size: cover;
@@ -14,18 +24,18 @@
   background-image: url("../imagenes/conejitos.jpg");
 }
 
-.logo { /*EXTEND*/
+.logo {
   width: 20%;
   border-radius: 50px;
 }
 
-.encabezado { /*EXTEND*/
+.encabezado {
   padding: 1rem;
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-.navbar { /*EXTEND*/
+.navbar {
   background: transparent !important;
   display: flex;
   justify-content: center;
@@ -51,20 +61,19 @@ footer img {
   width: 8%;
 }
 
-.clicaqui h2 { /*EXTEND*/
-  display: inline-block; /* permite que el H2 tenga fondo y padding */
-  padding: 20px 40px; /* espacio dentro del óvalo */
-  border-radius: 50px; /* óvalo redondeado */
-  background-color: #ffffff; /* fondo blanco */
-  color: #000000; /* texto negro */
+.clicaqui h2 {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  color: #000000;
   font-size: 24px;
   font-weight: 700;
-  cursor: pointer; /* indica que es clickeable */
-  transition: background-color 0.3s, color 0.3s; /* transición suave */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* Hover: fondo negro y texto blanco */
-.clicaqui h2:hover { /*EXTEND*/
+.clicaqui h2:hover {
   background-color: #000000;
   color: #ffffff;
 }
@@ -78,15 +87,8 @@ footer img {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-body { /*EXTEND*/
+body {
   font-family: "Commissioner", sans-serif;
-}
-
-.bodyindex {
-  background-image: url("../imagenes/corte-router-cnc.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .principal {

@@ -1,32 +1,29 @@
 
-.logo {/*EXTEND*/
+.logo {
     width: 20%;
     border-radius: 50px;
 }
-.encabezado {/*EXTEND*/
+.encabezado {
     padding: 1rem;
     color: white;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
-.navbar {/*EXTEND*/
+.navbar {
   background: transparent !important;
   display: flex;
   justify-content: center;
 }
-
 footer{
     margin-top: 0;
     padding-top: 1rem;
     color: white;
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
-
 footer img{
     width: 5%;
     margin-top: auto;
     border-radius: 50%;
 }
-
 .logowp{
     position: fixed;
     bottom: 40px;
