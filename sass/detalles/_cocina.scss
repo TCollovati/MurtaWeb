@@ -1,0 +1,15 @@
+//VARIABLES-----------
+@use "../generales/fontYmargenes" as*;
+@use "../generales/backgroundimg" as*;
+@use "../generales/headerfooter" as*;
+@use "../generales/variables" as*;
+
+.card-group{
+    margin-bottom: 0;
+}
+
+.card-img-top{
+       display: block;
+       margin: 0 auto;
+       width: 60%;
+     }
