@@ -70,7 +70,6 @@ body {
 }
 
 .navbar {
-  background: transparent !important;
   display: flex;
   justify-content: center;
 }
@@ -216,7 +215,7 @@ footer img {
   width: 100%;
   text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.7);
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
@@ -235,7 +234,7 @@ footer img {
   width: 100%;
   text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.7);
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 .cuerpoqs .dani {
@@ -259,7 +258,7 @@ footer img {
   width: 100%;
   text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.7);
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 }
 
