@@ -2,7 +2,9 @@
 @use "../generales/fontYmargenes" as*;
 @use "../generales/backgroundimg" as*;
 @use "../generales/headerfooter" as*;
+@use "../generales/hover" as*;
 @use "../generales/variables" as*;
+@use "../generales/mediaQ" as*;
 //------------------MAIN INDEX-------------------
 
 body{
@@ -38,7 +40,5 @@ body{
         text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
     }
 }
-.card-group{
-    margin-bottom: 0;
-}
+
 
