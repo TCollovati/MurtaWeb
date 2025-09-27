@@ -1,5 +1,6 @@
 //VARIABLES-----------
 @use "../generales/fontYmargenes" as*;
+@use "../generales/indexmadera" as*;
 @use "../generales/backgroundimg" as*;
 @use "../generales/headerfooter" as*;
 @use "../generales/hover" as*;
@@ -11,14 +12,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    color: $blanco;
+    text-shadow: 2px 2px 8px $negrosombra;
 
     h1{
         font-weight: bold;
         font-size: 3.2rem;
         text-align: center;
-        color: white;
+        color:$blanco;
     }
 }
 .cuerpo {
@@ -30,12 +31,12 @@
         font-weight: bold;
         font-size: 1.3rem;
         margin: 0;
-        padding: 1rem 0; // espacio arriba y abajo
-        width: 100%;     // ocupa todo el ancho
+        padding: 1rem 0;
+        width: 100%;   
         text-align: center;
-        color: white;
-        background-color: #000000; 
-        text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        color: $blanco;
+        background-color: $negro; 
+        text-shadow: 2px 2px 8px $negrosombra;
     }
 }
 

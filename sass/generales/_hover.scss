@@ -1,43 +1,44 @@
+@use "../generales/variables" as*;
 .clicaqui h2 {
     display: inline-block;          
     padding: 20px 40px;             
     border-radius: 50px;            
-    background-color: #ffffff;      
-    color: #000000;                 
+    background-color: $blanco;      
+    color: $negro;                 
     font-size: 24px;
     font-weight: 700;
     cursor: pointer;                
     transition: background-color 0.3s, color 0.3s; 
 }
 .clicaqui h2:hover {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: $negro;
+    color: $blanco;
 }
 .clicaqui{
     padding: 3rem;
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
+    color: $blanco;
+    text-shadow: 1px 1px 5px $negrosombra;
 }
 
 .tiposmadera {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); // se adaptan al ancho
-  gap: 1rem; // espacio entre imágenes
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem; 
   padding: 2rem;
   justify-items: center;
 
   img {
-    width: 100%;   // ocupa todo el ancho de su celda
-    height: auto;  // mantiene proporción
+    width: 100%;
+    height: auto;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
 
     &:hover {
-      transform: scale(1.05); // efecto zoom al pasar el mouse
+      transform: scale(1.05);
     }
   }
 }

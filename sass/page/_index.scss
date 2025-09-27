@@ -6,23 +6,19 @@
 @use "../generales/variables" as*;
 @use "../generales/mediaQ" as*;
 //------------------MAIN INDEX-------------------
-
-body{
-    font-family: "Commissioner", sans-serif;
-}
 .principal {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    color: $blanco;
+    text-shadow: 2px 2px 8px $negrosombra;
 
     h1{
         font-weight: bold;
         font-size: 3.2rem;
         text-align: center;
-        color: white;
+        color: $blanco;
     }
 }
 .cotizar {
@@ -36,8 +32,8 @@ body{
         margin: 0;
         padding: 0;
         text-align: center;
-        color: white;
-        text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        color: $blanco;
+        text-shadow: 2px 2px 8px $negrosombra;
     }
 }
 

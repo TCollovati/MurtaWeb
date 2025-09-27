@@ -12,23 +12,24 @@
     color: rgb(58, 58, 65);
 }
 .childwood p{
-font-size: 1.5rem;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    margin-bottom: 0;
-    padding: 1rem 0; // espacio arriba y abajo
-    width: 100%;     // ocupa todo el ancho
-    text-align: center;
-    color: white;
-    background-color: #000000; 
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+            font-size: 1.5rem;
+            text-shadow: 1px 1px 5px $negrosombra;
+            margin-top: 1.5rem; 
+            padding: 1rem 0; 
+            width: 100%;   
+            text-align: center;
+            color: $blanco;
+            background-color: $negro; 
+            text-shadow: 2px 2px 8px $negrosombra;
+        
 }
 .clicaqui{
     padding: 3rem;
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
-    color: white;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7)
+    color: $blanco;
+    text-shadow: 1px 1px 5px $negrosombra;
 }
 .carousel-inner img {
   width: 60%;  
