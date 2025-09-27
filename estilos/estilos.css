@@ -10,7 +10,7 @@ body {
 }
 
 .bodyindex, .bodymadera, .bodychildwood, .bodyqs {
-  background-image: url("../imagenes/corte-router-cnc.jpg");
+  background-image: url("../imagenes/fondorouter.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -288,14 +288,43 @@ body {
   object-fit: contain;
 }
 
-.card-group {
-  margin-bottom: 0;
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
 }
 
-.card-img-top {
+.card {
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+}
+.card .card-body {
+  text-align: center;
+}
+@media (max-width: 992px) {
+  .card {
+    max-width: 450px;
+  }
+}
+@media (max-width: 576px) {
+  .card {
+    width: 90%;
+  }
+}
+
+.dani {
   display: block;
   margin: 0 auto;
   width: 60%;
+}
+@media (max-width: 768px) {
+  .dani {
+    width: 80%;
+  }
 }
 
 .logo {

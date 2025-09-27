@@ -1,15 +1,44 @@
 //VARIABLES-----------
-@use "../generales/fontYmargenes" as*;
-@use "../generales/backgroundimg" as*;
-@use "../generales/headerfooter" as*;
-@use "../generales/variables" as*;
+@use "../generales/fontYmargenes" as *;
+@use "../generales/backgroundimg" as *;
+@use "../generales/headerfooter" as *;
+@use "../generales/variables" as *;
 
-.card-group{
-    margin-bottom: 0;
+.card-container {
+  display: flex;
+  flex-direction: column;  // card arriba, imagen abajo
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
 }
 
-.card-img-top{
-       display: block;
-       margin: 0 auto;
-       width: 60%;
-     }
+.card {
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2rem;
+
+  .card-body {
+    text-align: center;   // centra h5, p y el botón
+  }
+
+  @media (max-width: 992px) {
+    max-width: 450px;
+  }
+
+  @media (max-width: 576px) {
+    width: 90%;
+  }
+}
+
+
+.dani {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+
+  @media (max-width: 768px) {
+    width: 80%;
+  }
+}
+
